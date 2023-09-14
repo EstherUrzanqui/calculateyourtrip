@@ -9,7 +9,7 @@ class App extends React.Component {
       <div style={{minHeight: "100vh", position:"relative"}}>
         <BrowserRouter>
           <Routes>
-            <Route path='/' Component={Map} />
+            <Route path='/calculateyourtrip' Component={Map} />
           </Routes>
         </BrowserRouter>
       </div>

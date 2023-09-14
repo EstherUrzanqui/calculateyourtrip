@@ -1,0 +1,72 @@
+.mapWrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+form{
+  margin-top: 60px
+}
+
+.costs{
+  margin: 25px;
+  padding: 20px;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  z-index: 1001;
+  opacity: 0.9;
+  background-color:white;
+  pointer-events: all;
+  border-radius: 5px;
+}
+
+.distance{
+  background-color:white;
+  border: none;
+  border-bottom: 3px solid rgb(94, 93, 93);
+  background-position: center;
+  width: 260px;
+  height: 40px;
+  margin: 5px;
+  
+}
+
+.vehicle{
+  background-color:white;
+  border: none;
+  border-bottom: 3px solid rgb(94, 93, 93);
+  background-position: center;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 4px;
+}
+
+.button{
+  width: 130px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: black;
+  background-color: rgb(168, 166, 166);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  margin: 10px;
+  margin-top: 50px;
+  margin-left: 4px;
+  border: none;
+  border-radius: 8px;
+    
+}
+
+h1{  
+  font-family: "Trattatello, fantasy";
+}
+
+h2{
+  margin-top: 90px;
+  font-family: "Trattatello, fantasy";
+  text-align: center;
+}
